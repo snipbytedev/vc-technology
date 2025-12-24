@@ -1,6 +1,12 @@
-"use client"
-import Image from "next/image";
+import React from 'react'
+import VcTechMainPage from './components/vcTech/vcTechMainPage/vcTechMainPage'
 
-export default function Home() {
-  return <div className="">main page</div>;
+const Page = () => {
+  return (
+    <div>
+      <VcTechMainPage/>
+    </div>
+  )
 }
+
+export default Page
