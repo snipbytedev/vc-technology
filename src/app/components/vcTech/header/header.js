@@ -47,7 +47,7 @@ const Header = () => {
 
   return (
     <header className="w-full bg-white border-b border-gray-200 fixed top-0 z-40">
-      <div className="px-6 sm:px-6 lg:px-8 py-4 mx-auto max-w-7xl">
+      <div className="px-6 sm:px-6 lg:px-8 py-4  mx-auto max-w-7xl">
         <div className="flex items-center justify-between">
           <motion.div
             className="flex items-center gap-3"
